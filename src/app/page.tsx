@@ -45,7 +45,7 @@ export default function Home() {
           style={{ height: "100%", width: "100%" }}
           colorBack="hsl(0, 0%, 0%)"
           colorFront="hsl(80, 45%, 55%)"
-          shape="cat"
+          shape="dots"
           type="4x4"
           pxSize={3}
           offsetX={0}
