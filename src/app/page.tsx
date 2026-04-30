@@ -10,11 +10,24 @@ type Project = {
 };
 
 const now: Project[] = [
+  { name: "yenga", type: "flashcards", year: "25", href: "https://yenga.co" },
   {
     name: "olive",
     type: "ios app",
     year: "26",
     href: "https://apps.apple.com/us/app/daily-bible-reading-olive/id6762354214",
+  },
+  {
+    name: "fightmeta",
+    type: "martial arts",
+    year: "26",
+    href: "https://fightmeta.co",
+  },
+  {
+    name: "pro gear garage",
+    type: "e-com",
+    year: "25",
+    href: "https://progeargarage.co",
   },
   {
     name: "sprig",
@@ -27,19 +40,6 @@ const now: Project[] = [
     type: "diet app",
     year: "26",
     href: "https://github.com/fitzies/crave",
-  },
-  {
-    name: "fightmeta",
-    type: "martial arts",
-    year: "26",
-    href: "https://fightmeta.co",
-  },
-  { name: "yenga", type: "flashcards", year: "25", href: "https://yenga.co" },
-  {
-    name: "pro gear garage",
-    type: "e-com",
-    year: "25",
-    href: "https://progeargarage.co",
   },
 ];
 
