@@ -18,6 +18,17 @@ const now: Project[] = [
     href: "https://apps.apple.com/us/app/daily-bible-reading-olive/id6762354214",
   },
   {
+    name: "screenmates",
+    type: "ios app",
+    year: "26",
+    href: "https://apps.apple.com/us/app/screenmates/id6771377226?l=zh-Hant-TW&platform=mac",
+  },
+  {
+    name: "ocode",
+    type: "developer tool",
+    year: "26",
+  },
+  {
     name: "fightmeta",
     type: "martial arts",
     year: "26",
