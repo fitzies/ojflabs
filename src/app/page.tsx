@@ -10,6 +10,12 @@ type Project = {
 };
 
 const now: Project[] = [
+  {
+    name: "save face",
+    type: "ios app",
+    year: "26",
+    href: "https://apps.apple.com/app/save-face-gym-accountability/id6816852592",
+  },
   { name: "yenga", type: "flashcards", year: "25", href: "https://yenga.co" },
   {
     name: "olive",
@@ -35,22 +41,29 @@ const now: Project[] = [
     href: "https://fightmeta.co",
   },
   {
-    name: "pro gear garage",
-    type: "e-com",
-    year: "25",
-    href: "https://progeargarage.co",
-  },
-  {
     name: "sprig",
     type: "macos app",
     year: "26",
     href: "https://apps.apple.com/us/app/sprig-scratchpad/id6764240383",
   },
   {
-    name: "crave",
-    type: "diet app",
+    name: "vantage",
+    type: "analytics",
     year: "26",
-    href: "https://github.com/fitzies/crave",
+    href: "https://vantage-indol.vercel.app",
+  },
+  { name: "snagbot", type: "ai code review", year: "26" },
+  {
+    name: "pocket warbands",
+    type: "game",
+    year: "26",
+    href: "https://pocket-warbands.vercel.app",
+  },
+  {
+    name: "louie's last stand",
+    type: "game",
+    year: "26",
+    href: "https://louieslaststand.vercel.app",
   },
 ];
 
@@ -62,7 +75,6 @@ const work: Project[] = [
     href: "https://github.com/fitzies/cell-journey",
   },
   { name: "pulseflow", type: "automation", year: "25", href: "https://pulseflow.co" },
-  { name: "ensu", type: "defi", year: "25", href: "https://github.com/fitzies/ensuv2" },
   { name: "mdala", type: "defi", year: "25", href: "https://mdala.io" },
   {
     name: "playgrounds",
@@ -73,6 +85,19 @@ const work: Project[] = [
 ];
 
 const archive: Project[] = [
+  {
+    name: "crave",
+    type: "diet app",
+    year: "26",
+    href: "https://github.com/fitzies/crave",
+  },
+  {
+    name: "pro gear garage",
+    type: "e-com",
+    year: "25",
+    href: "https://progeargarage.co",
+  },
+  { name: "ensu", type: "defi", year: "25", href: "https://ensu.me" },
   {
     name: "paperpilot",
     type: "ai writing",
@@ -87,7 +112,7 @@ const archive: Project[] = [
 function Row({ project }: { project: Project }) {
   const inner = (
     <>
-      <span className="w-40 shrink-0">{project.name}</span>
+      <span className="w-48 shrink-0">{project.name}</span>
       <span className="flex-1 text-white/40">{project.type}</span>
       <span className="w-8 text-right text-white/40">{project.year}</span>
     </>
