@@ -35,12 +35,6 @@ const now: Project[] = [
     year: "26",
   },
   {
-    name: "fightmeta",
-    type: "martial arts",
-    year: "26",
-    href: "https://fightmeta.co",
-  },
-  {
     name: "sprig",
     type: "macos app",
     year: "26",
@@ -85,6 +79,12 @@ const work: Project[] = [
 ];
 
 const archive: Project[] = [
+  {
+    name: "fightmeta",
+    type: "martial arts",
+    year: "26",
+    href: "https://fightmeta.co",
+  },
   {
     name: "crave",
     type: "diet app",
